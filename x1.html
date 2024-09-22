@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A sample HTML project with various elements and a navigation bar">
+<title>HTML Project Example with Navigation</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #555;
+        }
+        section {
+            margin-top: 20px;
+        }
+		h1{
+            color: #fff;
+        }
+        h2 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<header>
+  <h1>Welcome to the HTML Project Example</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#headings">Headings</a></li>
+    <li><a href="#lists">Lists</a></li>
+    <li><a href="#links">Links</a></li>
+    <li><a href="#images">Images</a></li>
+    <li><a href="#tables">Tables</a></li>
+    <li><a href="#forms">Forms</a></li>
+  </ul>
+</nav>
+<section id="images">
+  <h2>Images</h2>
+  <p>Here is an image:</p>
+  <img src="images/banner2-1.jpg" alt="Placeholder Image" style="width:100%;"> </section>
+<section id="introduction">
+  <h2>Introduction</h2>
+  <p>This project demonstrates various HTML elements, attributes, and tags.</p>
+  <p>We will cover headings, paragraphs, lists, links, images, tables, and forms.</p>
+</section>
+<section id="headings">
+  <h2>Headings</h2>
+  <p>HTML supports multiple levels of headings, from <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>.</p>
+  <h3>Subheading 1</h3>
+  <p>Content under subheading 1.</p>
+  <h4>Subheading 2</h4>
+  <p>Content under subheading 2.</p>
+</section>
+<section id="lists">
+  <h2>Lists</h2>
+  <h3>Ordered List</h3>
+  <ol>
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+  </ol>
+  <h3>Unordered List</h3>
+  <ul>
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+  </ul>
+</section>
+<section id="links">
+  <h2>Links</h2>
+  <p>Here is a link to <a href="https://www.example.com" target="_blank">Example.com</a>.</p>
+</section>
+<section id="tables">
+  <h2>Tables</h2>
+  <table>
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+      <th>Header 3</th>
+    </tr>
+    <tr>
+      <td>Row 1, Cell 1</td>
+      <td>Row 1, Cell 2</td>
+      <td>Row 1, Cell 3</td>
+    </tr>
+    <tr>
+      <td>Row 2, Cell 1</td>
+      <td>Row 2, Cell 2</td>
+      <td>Row 2, Cell 3</td>
+    </tr>
+  </table>
+</section>
+<section id="forms">
+  <h2>Forms</h2>
+  <form action="submit_form.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+    <input type="submit" value="Submit">
+  </form>
+</section>
+<footer>
+  <p>&copy; 2024 HTML Project Example. All rights reserved.</p>
+</footer>
+</body>
+</html>
